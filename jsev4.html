@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+
+<script>
+	var dob = prompt("Enter the date");
+    var pattern = /^([0-9]{2})-([0-9]{2})-([0-9]{4})$/;
+    if (dob == null || dob == "" || !pattern.test(dob)) {
+       console.log("Invalid date of birth\n");
+    }
+    else {
+       console.log("Valid date of birth\n");
+    }
+</script>
+
+
+</body>
+</html>
